@@ -152,7 +152,7 @@ class RepVC:
             if self.PLAYING:
                 await self.app.change_stream(
                     self.CHAT_ID,
-                    AudioPiped("baqir/baqir/Silence01s.mp3"),
+                    AudioPiped("RepVC/resources/Silence01s.mp3"),
                 )
             self.PLAYING = False
             return "**- التخطـي:\nقائمـة الشغيـل فارغـه ؟!**"
