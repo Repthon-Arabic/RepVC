@@ -8,7 +8,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.types import User
 from repthon import Config, zq_lo
-from ..core.managers import edit_delete, edit_or_reply
+from repthon.core.managers import edit_delete, edit_or_reply
 
 from .helper.stream_helper import Stream
 from .helper.tg_downloader import tg_dl
